@@ -1,0 +1,37 @@
+<div class="flex flex-col h-full w-full text-white">
+<app-header></app-header>
+<main class=" p-4 relative flex-1"> 
+   <app-map></app-map>
+   <div class="absolute top-0 left-0 p-4 w-full z-[999] flex flex-col gap-4">  
+   <span class="flex gap-4">
+      <h1 class="text-3xl font-medium">Hello User</h1>
+      <div class="flex gap-2 p-2 bg-tertiary rounded-sm">
+         <mat-icon >info</mat-icon>
+         <p>There are 2 action items</p>
+      </div>
+   </span>
+   <div class="flex gap-4 w-full overflow-auto">
+      <div *ngFor="let city of data.default" class="widget  p-4 border aspect-square h-[250px] w-[250px] rounded-md">
+         <h2 class="font-bold">{{city.name}}</h2>
+         <div class="flex items-start flex-col">
+            <h3 class="text-sm">Forecast</h3>
+            <span class="flex items-center justify-between w-full">
+               <h3 class="font-bold">{{city.forecastData}}</h3>
+               <div class="chart h-[80px] w-[100px]" ></div>
+               <mat-icon>arrow_upward</mat-icon>
+            </span>
+         </div>
+         <div class="flex items-start flex-col">
+            <h3 class="text-sm">Forecast</h3>
+            <span class="flex items-center justify-between w-full">
+               <h3 class="font-bold">{{city.forecastPercentage}}%</h3>
+               <div class="chart h-[80px] w-[100px]" ></div>
+               <mat-icon>arrow_downward</mat-icon>
+            </span>
+         </div>
+      </div>
+   </div>
+</div>
+</main>
+</div>
+

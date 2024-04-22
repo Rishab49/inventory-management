@@ -1,0 +1,194 @@
+[
+    {
+        "name": "City 1",
+        "forecastData": "45.7M",
+        "forecastPercentage": 65,
+        "data": [
+            {
+                "data": [
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    5
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    },
+    {
+        "name": "City 2",
+        "forecastData": "79.2T",
+        "forecastPercentage": 62,
+        "data": [
+            {
+                "data": [
+                    0,
+                    0,
+                    3,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    },
+    {
+        "name": "City 3",
+        "forecastData": "567.5M",
+        "forecastPercentage": 56,
+        "data": [
+            {
+                "data": [
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    5
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    },
+    {
+        "name": "City 4",
+        "forecastData": "567.5M",
+        "forecastPercentage": 23,
+        "data": [
+            {
+                "data": [
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    5
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    },
+    {
+        "name": "City 5",
+        "forecastData": "$23.5T",
+        "forecastPercentage": 85,
+        "data": [
+            {
+                "data": [
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    5
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    },
+    {
+        "name": "City 6",
+        "forecastData": "814.1M",
+        "forecastPercentage": 39,
+        "data": [
+            {
+                "data": [
+                    0,
+                    5,
+                    0,
+                    0,
+                    0
+                ],
+                "type": "line",
+                "smooth": true
+            },
+            {
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    5
+                ],
+                "type": "line",
+                "lineStyle": {
+                    "type": "dashed"
+                },
+                "smooth": true
+            }
+        ]
+    }
+]

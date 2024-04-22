@@ -1,0 +1,41 @@
+<div class="flex flex-col h-screen w-screen text-white">
+    <app-header></app-header>
+    <main class="flex flex-1">
+        <aside class="flex flex-col items-stretch justify-center p-4 bg-primary flex-1"></aside>
+        <section class="flex-[3] flex flex-col bg-primary" >
+            <div class="flex items-center  gap-4">
+                <span class="flex items-center gap-2">
+                    <mat-icon class="text-red-500">warning</mat-icon>
+                    <h2>Sample Stack</h2>
+                </span>
+                <span class="flex gap-2">
+                    Stack ID:123456789123
+                    <mat-icon>list</mat-icon>
+                </span>
+                <span class="flex gap-4 bg-tertiary px-4 py-2 rounded-md">
+                    <span class="flex flex-col">
+                        <h4>Forecast</h4>
+                        <p>89%</p>
+                    </span>
+                    <span class="flex flex-col">
+                        <h4>Forecast</h4>
+                        <p>89%</p>
+                    </span>
+                </span>
+                <mat-icon>flag</mat-icon>
+            </div>
+            <div class="flex items-center">     
+                <span class="flex gap-2 items-center">
+                    <mat-icon>attach_file</mat-icon>
+                    <h4>SPECIAL REQUIREMENTS</h4>
+                    <app-toggle label="INCLUDE"></app-toggle>
+                </span>
+            </div>
+            <div class="flex ">
+                <h4>Forecast Horizon</h4>
+                <mat-icon>info</mat-icon>
+                <app-toggle label="SHOW CONFIDENCE INTERVAL"></app-toggle>
+            </div>
+        </section>
+    </main>
+</div>
