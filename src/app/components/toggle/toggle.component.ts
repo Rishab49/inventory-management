@@ -1,13 +1,20 @@
-import { Component, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-toggle',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './toggle.component.html',
-  styleUrl: './toggle.component.css'
 })
 export class ToggleComponent {
-@Input() 
-public label:string="";
+  @Input() label: string = "";
+  @Input() state: number = 1;
+  @Output() toggle = new EventEmitter();
+
+
+
+  toggleData() {
+    this.toggle.emit();
+  }
 }

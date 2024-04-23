@@ -9,7 +9,6 @@ import { HeaderComponent } from '../components/header/header.component';
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
-    styleUrl: './home.component.css',
     // add modules here to use in the html file like <app-header>,<mat-icon> etc.
     imports: [MatIconModule, CommonModule, MapComponent,HeaderComponent]
 })

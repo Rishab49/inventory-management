@@ -1,13 +1,28 @@
 <div class="flex flex-col h-screen w-screen text-white">
     <app-header></app-header>
-    <main class="flex flex-1">
-        <aside class="flex flex-col items-stretch justify-start p-4 bg-primary flex-1">
-            <mat-icon>back</mat-icon>
-            <h2>Sample Stack</h2>
-<app-tabs></app-tabs>
+    <main class="flex h-[calc(100vh_-_48px)] bg-secondary">
+        <aside
+            class="side-panel relative flex flex-col items-stretch justify-stretch bg-primary flex-1 gap-2 py-2 open transition-all">
+            <a routerLink="/" class="px-2 flex"><mat-icon>arrow_back</mat-icon></a>
+            <span class="flex gap-4 px-2">
+                <span class="bg-secondary h-4 w-8 rounded-sm"></span>
+                <span class="bg-tertiary h-4 w-8 rounded-sm"></span>
+                <span class="bg-secondary h-4 w-8 rounded-sm"></span>
+                <span class="bg-secondary h-4 w-8 rounded-sm"></span>
+                <span class="bg-secondary h-4 w-8 rounded-sm"></span>
+            </span>
+            <span class="flex overflow-hidden">
+                <h2 class="font-medium text-xl px-2">Sample Stack</h2>
+            </span>
+            <div class="flex-1 overflow-auto">
+                <app-tabs [data]="data" (setIndex)="setIndex($event)"></app-tabs>
+            </div>
+            <div class="bg-white absolute left-full top-0 flex items-center justify-center" (click)="toggleSidePanel()">
+                <mat-icon class="text-black">chevron_left</mat-icon>
+            </div>
         </aside>
-        <section class="flex-[3] flex flex-col bg-primary" >
-            <div class="flex items-center  gap-4">
+        <section class="flex-[3] flex flex-col bg-secondary gap-2 overflow-y-auto overflow-x-hidden">
+            <div class="flex items-center  gap-4 p-2 bg-primary">
                 <span class="flex items-center gap-2">
                     <mat-icon class="text-red-500">warning</mat-icon>
                     <h2>Sample Stack</h2>
@@ -16,29 +31,59 @@
                     Stack ID:123456789123
                     <mat-icon>list</mat-icon>
                 </span>
-                <span class="flex gap-4 bg-tertiary px-4 py-2 rounded-md">
+                <span class="flex gap-4 bg-tertiary px-4 py-1 rounded-md">
                     <span class="flex flex-col">
-                        <h4>Forecast</h4>
-                        <p>89%</p>
+                        <h4 class="text-xs">FORECAST</h4>
+                        <p class="font-medium">89%</p>
                     </span>
                     <span class="flex flex-col">
-                        <h4>Forecast</h4>
-                        <p>89%</p>
+                        <h4 class="text-xs">FORECAST</h4>
+                        <p class="font-medium">89%</p>
                     </span>
                 </span>
                 <mat-icon>flag</mat-icon>
             </div>
-            <div class="flex items-center">     
+            <div class="flex items-center p-2 bg-primary">
                 <span class="flex gap-2 items-center">
                     <mat-icon>attach_file</mat-icon>
                     <h4>SPECIAL REQUIREMENTS</h4>
                     <app-toggle label="INCLUDE"></app-toggle>
                 </span>
             </div>
-            <div class="flex ">
+            <div class="flex py-2 px-4 gap-4 items-center ">
                 <h4>Forecast Horizon</h4>
+                <select class="bg-primary">
+                    <option>Latest Issue</option>
+                </select>
                 <mat-icon>info</mat-icon>
                 <app-toggle label="SHOW CONFIDENCE INTERVAL"></app-toggle>
+            </div>
+            <div class="flex gap-4 py-2 px-4">
+                <app-toggle label="AI FORECAST" (toggle)="toggleAiForecast()"></app-toggle>
+                <app-toggle label="FINAL FORECAST" (toggle)="toggleFinalForecast()"></app-toggle>
+            </div>
+            <div class="graph min-h-[350px] w-full flex items-center justify-center">
+
+            </div>
+            <div class="h-fit w-full p-2 bg-primary">
+                <table class="text-xs border-spacing-2 w-full">
+                    <tr class="border-b-2">
+                        <th></th>
+                        <th class="p-2" *ngFor="let h of tableHeaders">{{h}}</th>
+                    </tr>
+                    <tr class="border-b-[1px]">
+                        <td class="p-2 font-medium">ai forecast</td>
+                        <td class="p-2" *ngFor="let d of aiForecastData">{{d}}</td>
+                    </tr>
+                    <tr class="border-b-[1px]">
+                        <td class="p-2 font-medium">final forecast</td>
+                        <td class="p-2" *ngFor="let d of finalForecastData">{{d}}</td>
+                    </tr>
+                    <tr class="border-b-[1px]">
+                        <td class="p-2 font-medium">actual consumption</td>
+                        <td class="p-2" *ngFor="let d of actualConsumption">{{d}}</td>
+                    </tr>
+                </table>
             </div>
         </section>
     </main>

@@ -1,6 +1,6 @@
-<label class="relative flex items-center w-fit">
-    <input type="checkbox" value="" class="sr-only peer">
-    <div class="absolute border-2 border-gray-400 py-2 rounded-full h-[20px] w-[40px] peer-checked:border-white"></div>
-    <div class="bg-gray-400 rounded-full h-3 w-3 translate-x-1 peer-checked:translate-x-6 transition-all peer-checked:bg-white"></div>
-    <p class="absolute left-[45px] w-max">{{label}}</p>
+<label class="relative flex items-center w-max gap-2">
+    <input type="checkbox" value="" class="sr-only peer" (click)="toggleData()" [checked]="state == 1 ? true : false">
+    <div class="border-2 border-gray-400 py-2 rounded-full h-[20px] w-[40px] peer-checked:border-white"></div>
+    <div class="absolute bg-gray-400 rounded-full h-3 w-3 translate-x-1 peer-checked:translate-x-6 transition-all peer-checked:bg-white"></div>
+    <p class="left-[45px] w-max  text-xs">{{label}}</p>
 </label>
