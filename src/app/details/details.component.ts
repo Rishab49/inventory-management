@@ -46,13 +46,13 @@ export class DetailsComponent implements AfterViewInit, OnInit {
     this.tabIndex = tabIndex;
     this.makeChart();
   }
-  toggleSidePanel(){
+  toggleSidePanel() {
     let elem = document.querySelector(".side-panel") as HTMLElement;
-    if(elem.classList.contains("open")){
+    if (elem.classList.contains("open")) {
       elem.style.maxWidth = "0px";
       elem.classList.remove("open");
       elem.classList.add("closed");
-    }else{
+    } else {
       elem.style.maxWidth = "";
       elem.classList.remove("closed");
       elem.classList.add("open");
@@ -66,11 +66,11 @@ export class DetailsComponent implements AfterViewInit, OnInit {
       //@ts-ignore
       var myChart = echarts.init(chartDomElement);
       //@ts-ignore
-      this.aiForecastData =DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(0, 12);
+      this.aiForecastData = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(0, 12);
       //@ts-ignore
-      this.finalForecastData = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(0, 12) ;
+      this.finalForecastData = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(0, 12);
       //@ts-ignore
-      this.actualConsumption =  DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(0, 12) ;
+      this.actualConsumption = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(0, 12);
       //@ts-ignore
       this.tableHeaders = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map((d: { [x: string]: any; }) => `${d["year"]} Q${d['quarter']}`).slice(0, 12);
       var option;
@@ -98,7 +98,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
           name: "ai forecast",
           type: 'line',
           //@ts-ignore
-          data: this.showAiForecast ?  this.aiForecastData : []
+          data: this.showAiForecast ? this.aiForecastData : []
         },
         {
           name: "final forecast",
@@ -119,7 +119,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(12, 15)]
+          data: this.showAiForecast ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(12, 15)] : []
         },
         {
           name: 'final forecast(expected)',
@@ -128,7 +128,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(12, 15)]
+          data: this.showFinalForecast ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(12, 15)] : []
         },
         {
           name: 'prev quarter final',
@@ -137,7 +137,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(12, 15)]
+          data: this.showActualConsumption ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(12, 15)] : []
         }
         ]
       };

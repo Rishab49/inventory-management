@@ -187,23 +187,23 @@
               {
                 "year": "2024",
                 "quarter": 2,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 3500,
+                "final_forecast": 7500,
+                "actual_consumption": 8750
               },
               {
                 "year": "2024",
                 "quarter": 3,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 5200,
+                "final_forecast": 4800,
+                "actual_consumption": 5000
               },
               {
                 "year": "2024",
                 "quarter": 4,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 6542,
+                "final_forecast": 8542,
+                "actual_consumption": 7589
               },
               {
                 "year": "2025",
@@ -304,23 +304,23 @@
               {
                 "year": "2024",
                 "quarter": 2,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 4300,
+                "final_forecast": 7854,
+                "actual_consumption": 6589
               },
               {
                 "year": "2024",
                 "quarter": 3,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 7845,
+                "final_forecast": 5689,
+                "actual_consumption": 8547
               },
               {
                 "year": "2024",
                 "quarter": 4,
-                "ai_forecast": null,
-                "final_forecast": null,
-                "actual_consumption": null
+                "ai_forecast": 8945,
+                "final_forecast": 6548,
+                "actual_consumption": 7856
               },
               {
                 "year": "2025",
