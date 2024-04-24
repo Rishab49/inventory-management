@@ -12,9 +12,12 @@
         <mat-icon>filter_list</mat-icon>
     </span>
     <div class="flex flex-col items-stretch overflow-y-auto p-2">
-        <div *ngFor="let d of data[activeTabIndex].data;index as ind"
+        <a *ngFor="let d of data[activeTabIndex].data;index as ind"
             class="flex items-start justify-between gap-2 border-b-[1px] p-2 hover:bg-white/50"
-            (click)="changeIndex(activeTabIndex,ind)">
+            [routerLink]="['/details',data[activeTabIndex].title,d.id]"
+            routerLinkActive="bg-white/50"
+            >
+            <!-- (click)="changeIndex(activeTabIndex,ind)" -->
             <input type="checkbox">
             <div class="flex flex-col gap-2">
                 <span class="flex flex-row gap-2 text-black">
@@ -34,6 +37,6 @@
             <div>
                 <mat-icon>mail</mat-icon>
             </div>
-        </div>
+        </a>
     </div>
 </div>

@@ -15,7 +15,7 @@
                 <h2 class="font-medium text-xl px-2">Sample Stack</h2>
             </span>
             <div class="flex-1 overflow-auto">
-                <app-tabs [data]="data" (setIndex)="setIndex($event)"></app-tabs>
+                <app-tabs [data]="data"></app-tabs>
             </div>
             <div class="bg-white absolute left-full top-0 flex items-center justify-center" (click)="toggleSidePanel()">
                 <mat-icon class="text-black">chevron_left</mat-icon>
@@ -28,7 +28,7 @@
                     <h2>Sample Stack</h2>
                 </span>
                 <span class="flex gap-2">
-                    Stack ID:123456789123
+                    Stack ID:{{routeID}}
                     <mat-icon>list</mat-icon>
                 </span>
                 <span class="flex gap-4 bg-tertiary px-4 py-1 rounded-md">
@@ -52,7 +52,7 @@
             </div>
             <div class="flex py-2 px-4 gap-4 items-center ">
                 <h4>Forecast Horizon</h4>
-                <select class="bg-primary">
+                <select class="bg-secondary">
                     <option>Latest Issue</option>
                 </select>
                 <mat-icon>info</mat-icon>

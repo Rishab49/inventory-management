@@ -1,1077 +1,1095 @@
 [
-    {
-        "title": "BACKLOG",
-        "data": [{
-            "name": "Product Name 1",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 1000,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 1200,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 1500,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 1800,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2100,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 2400,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2700,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 3000,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3450,
-                "final_forecast": 7123,
-                "actual_consumption": 6543
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 2890,
-                "final_forecast": 5432,
-                "actual_consumption": 4211
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 2980,
-                "final_forecast": 6543,
-                "actual_consumption": 5123
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 3120,
-                "final_forecast": 4321,
-                "actual_consumption": 6789
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3320,
-                "final_forecast": 6543,
-                "actual_consumption": 7892
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3545,
-                "final_forecast": 4211,
-                "actual_consumption": 1987
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 3790,
-                "final_forecast": 5123,
-                "actual_consumption": 4321
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 3180,
-                "final_forecast": 2876,
-                "actual_consumption": 7543
-              }
-            ]
+  {
+    "title": "BACKLOG",
+    "data": [
+      {
+        "id": "123456789",
+        "name": "City 1",
+        "forecastData": "45.7M",
+        "forecastPercentage": 65,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 1000,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
           },
           {
-            "name": "Product Name 2",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 1000,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 1200,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 1500,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 1800,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2100,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 2400,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2700,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 3000,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3300,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 3500,
-                "final_forecast": 7500,
-                "actual_consumption": 8750
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 5200,
-                "final_forecast": 4800,
-                "actual_consumption": 5000
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 6542,
-                "final_forecast": 8542,
-                "actual_consumption": 7589
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3500,
-                "final_forecast": 6245,
-                "actual_consumption": 7896
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3800,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 4100,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 4400,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              }
-            ]
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 1200,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
           },
           {
-            "name": "Product Name 3",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 1000,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 1200,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 1500,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 1800,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2100,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 2400,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2700,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 3000,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3300,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 4300,
-                "final_forecast": 7854,
-                "actual_consumption": 6589
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 7845,
-                "final_forecast": 5689,
-                "actual_consumption": 8547
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 8945,
-                "final_forecast": 6548,
-                "actual_consumption": 7856
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3500,
-                "final_forecast": 6245,
-                "actual_consumption": 7896
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3800,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 4100,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 4400,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              }
-            ]
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 1500,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
           },
           {
-            "name": "Product Name 4",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 2850,
-                "final_forecast": 6321,
-                "actual_consumption": 7542
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 1950,
-                "final_forecast": 2987,
-                "actual_consumption": 2254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 3200,
-                "final_forecast": 5129,
-                "actual_consumption": 4381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 2400,
-                "final_forecast": 1893,
-                "actual_consumption": 7517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2750,
-                "final_forecast": 2472,
-                "actual_consumption": 1021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3100,
-                "final_forecast": 7856,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2650,
-                "final_forecast": 3312,
-                "actual_consumption": 4890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 2900,
-                "final_forecast": 5178,
-                "actual_consumption": 1459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3350,
-                "final_forecast": 7241,
-                "actual_consumption": 6103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 2800,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 2950,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 3100,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3200,
-                "final_forecast": 6245,
-                "actual_consumption": 7896
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3450,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 3700,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 3950,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              }
-            ]
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 1800,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
           },
           {
-            "name": "Product Name 5",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 3120,
-                "final_forecast": 6543,
-                "actual_consumption": 7892
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 2345,
-                "final_forecast": 4211,
-                "actual_consumption": 1987
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 2890,
-                "final_forecast": 5123,
-                "actual_consumption": 4321
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 1980,
-                "final_forecast": 2876,
-                "actual_consumption": 7543
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2765,
-                "final_forecast": 2345,
-                "actual_consumption": 1098
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3200,
-                "final_forecast": 7890,
-                "actual_consumption": 6321
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2650,
-                "final_forecast": 3987,
-                "actual_consumption": 5123
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 3120,
-                "final_forecast": 5768,
-                "actual_consumption": 2345
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3450,
-                "final_forecast": 7123,
-                "actual_consumption": 6543
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 2890,
-                "final_forecast": 5432,
-                "actual_consumption": 4211
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 2980,
-                "final_forecast": 6543,
-                "actual_consumption": 5123
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 3120,
-                "final_forecast": 4321,
-                "actual_consumption": 6789
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3320,
-                "final_forecast": 6543,
-                "actual_consumption": 7892
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3545,
-                "final_forecast": 4211,
-                "actual_consumption": 1987
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 3790,
-                "final_forecast": 5123,
-                "actual_consumption": 4321
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 3180,
-                "final_forecast": 2876,
-                "actual_consumption": 7543
-              }
-            ]
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2100,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 2400,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2700,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 3000,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3450,
+            "final_forecast": 7123,
+            "actual_consumption": 6543
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 2890,
+            "final_forecast": 5432,
+            "actual_consumption": 4211
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 2980,
+            "final_forecast": 6543,
+            "actual_consumption": 5123
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 3120,
+            "final_forecast": 4321,
+            "actual_consumption": 6789
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3320,
+            "final_forecast": 6543,
+            "actual_consumption": 7892
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3545,
+            "final_forecast": 4211,
+            "actual_consumption": 1987
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 3790,
+            "final_forecast": 5123,
+            "actual_consumption": 4321
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 3180,
+            "final_forecast": 2876,
+            "actual_consumption": 7543
           }
-          ,
+        ]
+      },
+      {
+        "id": "234567891",
+        "name": "City 2",
+        "forecastData": "79.2T",
+        "forecastPercentage": 62,
+        "data": [
           {
-            "name": "Product Name 6",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 2875,
-                "final_forecast": 6321,
-                "actual_consumption": 7542
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 1950,
-                "final_forecast": 2987,
-                "actual_consumption": 2254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 3200,
-                "final_forecast": 5129,
-                "actual_consumption": 4381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 2400,
-                "final_forecast": 1893,
-                "actual_consumption": 7517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 2750,
-                "final_forecast": 2472,
-                "actual_consumption": 1021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3100,
-                "final_forecast": 7856,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 2650,
-                "final_forecast": 3312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 2900,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 3350,
-                "final_forecast": 7241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 2800,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 2950,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 3100,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 3200,
-                "final_forecast": 6245,
-                "actual_consumption": 7896
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 3450,
-                "final_forecast": 4873,
-                "actual_consumption": 3652
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 3700,
-                "final_forecast": 7123,
-                "actual_consumption": 5487
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 3950,
-                "final_forecast": 2897,
-                "actual_consumption": 9512
-              }
-            ]
-          }
-          ,
-          {
-            "name": "Product Name 7",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 3100,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 2400,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 2800,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 3200,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 3500,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3800,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 4100,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 4400,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 4700,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 5000,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 5300,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 5600,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 5900,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 6200,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 6500,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 6800,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              }
-            ]
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 1000,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
           },
           {
-            "name": "Product Name 8",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 2900,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 2200,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 2600,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 3000,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 3300,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3600,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 3900,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 4200,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 4500,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 4800,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 5100,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 5400,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 5700,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 6000,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 6300,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 6600,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              }
-            ]
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 1200,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
           },
           {
-            "name": "Product 9",
-            "data": [
-              {
-                "year": "2022",
-                "quarter": 1,
-                "ai_forecast": 2900,
-                "final_forecast": 5231,
-                "actual_consumption": 8742
-              },
-              {
-                "year": "2022",
-                "quarter": 2,
-                "ai_forecast": 2200,
-                "final_forecast": 3987,
-                "actual_consumption": 1254
-              },
-              {
-                "year": "2022",
-                "quarter": 3,
-                "ai_forecast": 2600,
-                "final_forecast": 7129,
-                "actual_consumption": 6381
-              },
-              {
-                "year": "2022",
-                "quarter": 4,
-                "ai_forecast": 3000,
-                "final_forecast": 2893,
-                "actual_consumption": 9517
-              },
-              {
-                "year": "2023",
-                "quarter": 1,
-                "ai_forecast": 3300,
-                "final_forecast": 1472,
-                "actual_consumption": 3021
-              },
-              {
-                "year": "2023",
-                "quarter": 2,
-                "ai_forecast": 3600,
-                "final_forecast": 9856,
-                "actual_consumption": 7248
-              },
-              {
-                "year": "2023",
-                "quarter": 3,
-                "ai_forecast": 3900,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2023",
-                "quarter": 4,
-                "ai_forecast": 4200,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2024",
-                "quarter": 1,
-                "ai_forecast": 4500,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2024",
-                "quarter": 2,
-                "ai_forecast": 4800,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2024",
-                "quarter": 3,
-                "ai_forecast": 5100,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2024",
-                "quarter": 4,
-                "ai_forecast": 5400,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              },
-              {
-                "year": "2025",
-                "quarter": 1,
-                "ai_forecast": 5700,
-                "final_forecast": 8241,
-                "actual_consumption": 7103
-              },
-              {
-                "year": "2025",
-                "quarter": 2,
-                "ai_forecast": 6000,
-                "final_forecast": 5890,
-                "actual_consumption": 6248
-              },
-              {
-                "year": "2025",
-                "quarter": 3,
-                "ai_forecast": 6300,
-                "final_forecast": 4312,
-                "actual_consumption": 5890
-              },
-              {
-                "year": "2025",
-                "quarter": 4,
-                "ai_forecast": 6600,
-                "final_forecast": 6178,
-                "actual_consumption": 2459
-              }
-            ]
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 1500,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 1800,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2100,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 2400,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2700,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 3000,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3300,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 3500,
+            "final_forecast": 7500,
+            "actual_consumption": 8750
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 5200,
+            "final_forecast": 4800,
+            "actual_consumption": 5000
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 6542,
+            "final_forecast": 8542,
+            "actual_consumption": 7589
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3500,
+            "final_forecast": 6245,
+            "actual_consumption": 7896
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3800,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 4100,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 4400,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
           }
-          
-          
-          
-          
-          
-          
-          
-          ]
-          
-    },
-    {
-        "title": "PENDING",
-        "data": []
-    },
-    {
-        "title": "FINAL SIGN-OFF",
-        "data": []
-    }
+        ]
+      },
+      {
+        "id": "345678912",
+        "name": "City 3",
+        "forecastData": "567.5M",
+        "forecastPercentage": 56,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 1000,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 1200,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 1500,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 1800,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2100,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 2400,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2700,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 3000,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3300,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 4300,
+            "final_forecast": 7854,
+            "actual_consumption": 6589
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 7845,
+            "final_forecast": 5689,
+            "actual_consumption": 8547
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 8945,
+            "final_forecast": 6548,
+            "actual_consumption": 7856
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3500,
+            "final_forecast": 6245,
+            "actual_consumption": 7896
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3800,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 4100,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 4400,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
+          }
+        ]
+      },
+      {
+        "id": "456789123",
+        "name": "City 4",
+        "forecastData": "567.5M",
+        "forecastPercentage": 23,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 2850,
+            "final_forecast": 6321,
+            "actual_consumption": 7542
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 1950,
+            "final_forecast": 2987,
+            "actual_consumption": 2254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 3200,
+            "final_forecast": 5129,
+            "actual_consumption": 4381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 2400,
+            "final_forecast": 1893,
+            "actual_consumption": 7517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2750,
+            "final_forecast": 2472,
+            "actual_consumption": 1021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3100,
+            "final_forecast": 7856,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2650,
+            "final_forecast": 3312,
+            "actual_consumption": 4890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 2900,
+            "final_forecast": 5178,
+            "actual_consumption": 1459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3350,
+            "final_forecast": 7241,
+            "actual_consumption": 6103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 2800,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 2950,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 3100,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3200,
+            "final_forecast": 6245,
+            "actual_consumption": 7896
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3450,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 3700,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 3950,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
+          }
+        ]
+      },
+      {
+        "id": "567891234",
+        "name": "City 5",
+        "forecastData": "$23.5T",
+        "forecastPercentage": 85,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 3120,
+            "final_forecast": 6543,
+            "actual_consumption": 7892
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 2345,
+            "final_forecast": 4211,
+            "actual_consumption": 1987
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 2890,
+            "final_forecast": 5123,
+            "actual_consumption": 4321
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 1980,
+            "final_forecast": 2876,
+            "actual_consumption": 7543
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2765,
+            "final_forecast": 2345,
+            "actual_consumption": 1098
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3200,
+            "final_forecast": 7890,
+            "actual_consumption": 6321
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2650,
+            "final_forecast": 3987,
+            "actual_consumption": 5123
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 3120,
+            "final_forecast": 5768,
+            "actual_consumption": 2345
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3450,
+            "final_forecast": 7123,
+            "actual_consumption": 6543
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 2890,
+            "final_forecast": 5432,
+            "actual_consumption": 4211
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 2980,
+            "final_forecast": 6543,
+            "actual_consumption": 5123
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 3120,
+            "final_forecast": 4321,
+            "actual_consumption": 6789
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3320,
+            "final_forecast": 6543,
+            "actual_consumption": 7892
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3545,
+            "final_forecast": 4211,
+            "actual_consumption": 1987
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 3790,
+            "final_forecast": 5123,
+            "actual_consumption": 4321
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 3180,
+            "final_forecast": 2876,
+            "actual_consumption": 7543
+          }
+        ]
+      },
+      {
+        "id": "678912345",
+        "name": "City 6",
+        "forecastData": "814.1M",
+        "forecastPercentage": 39,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 2875,
+            "final_forecast": 6321,
+            "actual_consumption": 7542
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 1950,
+            "final_forecast": 2987,
+            "actual_consumption": 2254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 3200,
+            "final_forecast": 5129,
+            "actual_consumption": 4381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 2400,
+            "final_forecast": 1893,
+            "actual_consumption": 7517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 2750,
+            "final_forecast": 2472,
+            "actual_consumption": 1021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3100,
+            "final_forecast": 7856,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 2650,
+            "final_forecast": 3312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 2900,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 3350,
+            "final_forecast": 7241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 2800,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 2950,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 3100,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 3200,
+            "final_forecast": 6245,
+            "actual_consumption": 7896
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 3450,
+            "final_forecast": 4873,
+            "actual_consumption": 3652
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 3700,
+            "final_forecast": 7123,
+            "actual_consumption": 5487
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 3950,
+            "final_forecast": 2897,
+            "actual_consumption": 9512
+          }
+        ]
+      },
+      {
+        "id": "789123456",
+        "name": "City 7",
+        "forecastData": "45.7M",
+        "forecastPercentage": 65,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 3100,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 2400,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 2800,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 3200,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 3500,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3800,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 4100,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 4400,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 4700,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 5000,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 5300,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 5600,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 5900,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 6200,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 6500,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 6800,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          }
+        ]
+      },
+      {
+        "id": "891234567",
+        "name": "City 8",
+        "forecastData": "79.2T",
+        "forecastPercentage": 62,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 2900,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 2200,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 2600,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 3000,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 3300,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3600,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 3900,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 4200,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 4500,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 4800,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 5100,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 5400,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 5700,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 6000,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 6300,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 6600,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          }
+        ]
+      },
+      {
+        "id": "912345678",
+        "name": "City 9",
+        "forecastData": "567.5M",
+        "forecastPercentage": 23,
+        "data": [
+          {
+            "year": "2022",
+            "quarter": 1,
+            "ai_forecast": 2900,
+            "final_forecast": 5231,
+            "actual_consumption": 8742
+          },
+          {
+            "year": "2022",
+            "quarter": 2,
+            "ai_forecast": 2200,
+            "final_forecast": 3987,
+            "actual_consumption": 1254
+          },
+          {
+            "year": "2022",
+            "quarter": 3,
+            "ai_forecast": 2600,
+            "final_forecast": 7129,
+            "actual_consumption": 6381
+          },
+          {
+            "year": "2022",
+            "quarter": 4,
+            "ai_forecast": 3000,
+            "final_forecast": 2893,
+            "actual_consumption": 9517
+          },
+          {
+            "year": "2023",
+            "quarter": 1,
+            "ai_forecast": 3300,
+            "final_forecast": 1472,
+            "actual_consumption": 3021
+          },
+          {
+            "year": "2023",
+            "quarter": 2,
+            "ai_forecast": 3600,
+            "final_forecast": 9856,
+            "actual_consumption": 7248
+          },
+          {
+            "year": "2023",
+            "quarter": 3,
+            "ai_forecast": 3900,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2023",
+            "quarter": 4,
+            "ai_forecast": 4200,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2024",
+            "quarter": 1,
+            "ai_forecast": 4500,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2024",
+            "quarter": 2,
+            "ai_forecast": 4800,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2024",
+            "quarter": 3,
+            "ai_forecast": 5100,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2024",
+            "quarter": 4,
+            "ai_forecast": 5400,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          },
+          {
+            "year": "2025",
+            "quarter": 1,
+            "ai_forecast": 5700,
+            "final_forecast": 8241,
+            "actual_consumption": 7103
+          },
+          {
+            "year": "2025",
+            "quarter": 2,
+            "ai_forecast": 6000,
+            "final_forecast": 5890,
+            "actual_consumption": 6248
+          },
+          {
+            "year": "2025",
+            "quarter": 3,
+            "ai_forecast": 6300,
+            "final_forecast": 4312,
+            "actual_consumption": 5890
+          },
+          {
+            "year": "2025",
+            "quarter": 4,
+            "ai_forecast": 6600,
+            "final_forecast": 6178,
+            "actual_consumption": 2459
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PENDING",
+    "data": []
+  },
+  {
+    "title": "FINAL SIGN-OFF",
+    "data": []
+  }
 ]

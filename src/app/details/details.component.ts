@@ -1,9 +1,9 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../components/header/header.component';
 import { ToggleComponent } from '../components/toggle/toggle.component';
 import { TabsComponent } from '../components/tabs/tabs.component';
 import { MatIconModule } from '@angular/material/icon';
-import { RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import * as DetailsData from "../../assets/details.json";
 import * as echarts from 'echarts';
 import { CommonModule } from '@angular/common';
@@ -14,10 +14,8 @@ import { CommonModule } from '@angular/common';
   imports: [HeaderComponent, MatIconModule, ToggleComponent, TabsComponent, RouterModule, CommonModule],
   templateUrl: './details.component.html',
 })
-export class DetailsComponent implements AfterViewInit, OnInit {
+export class DetailsComponent implements OnInit {
   data: any;
-  tabIndex: number = 0;
-  dataIndex: number = 0;
   showAiForecast: boolean = true;
   showFinalForecast: boolean = true;
   showActualConsumption: boolean = true;
@@ -25,9 +23,18 @@ export class DetailsComponent implements AfterViewInit, OnInit {
   finalForecastData: number[] = [];
   actualConsumption: number[] = [];
   tableHeaders: string[] = [];
+  routeID: string = "";
+  type: string = "";
+  constructor(private _ActivatedRoute: ActivatedRoute) { }
   ngOnInit() {
     //@ts-ignore
     this.data = DetailsData.default;
+    this._ActivatedRoute.paramMap.subscribe((params) => {
+      this.routeID = params.get("id") ?? "";
+      this.type = params.get("type") ?? "";
+      console.log(this.routeID, this.type);
+      this.makeChart();
+    })
   }
 
   toggleAiForecast() {
@@ -40,12 +47,6 @@ export class DetailsComponent implements AfterViewInit, OnInit {
     this.makeChart();
   }
 
-  setIndex({ tabIndex, dataIndex }: { tabIndex: number, dataIndex: number }) {
-    console.log(tabIndex, dataIndex);
-    this.dataIndex = dataIndex;
-    this.tabIndex = tabIndex;
-    this.makeChart();
-  }
   toggleSidePanel() {
     let elem = document.querySelector(".side-panel") as HTMLElement;
     if (elem.classList.contains("open")) {
@@ -66,13 +67,15 @@ export class DetailsComponent implements AfterViewInit, OnInit {
       //@ts-ignore
       var myChart = echarts.init(chartDomElement);
       //@ts-ignore
-      this.aiForecastData = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(0, 12);
+      console.log(DetailsData.default.filter(e => e.title == this.type));
       //@ts-ignore
-      this.finalForecastData = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(0, 12);
+      this.aiForecastData = DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["ai_forecast"]).slice(0, 12);
       //@ts-ignore
-      this.actualConsumption = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(0, 12);
+      this.finalForecastData = DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["final_forecast"]).slice(0, 12);;
       //@ts-ignore
-      this.tableHeaders = DetailsData.default[this.tabIndex].data[this.dataIndex].data.map((d: { [x: string]: any; }) => `${d["year"]} Q${d['quarter']}`).slice(0, 12);
+      this.actualConsumption = DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["actual_consumption"]).slice(0, 12);;
+      //@ts-ignore
+      this.tableHeaders = DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map((d: { [x: string]: any; }) => `${d["year"]} Q${d['quarter']}`).slice(0, 12);
       var option;
       option = {
         xAxis: {
@@ -119,7 +122,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: this.showAiForecast ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["ai_forecast"]).slice(12, 15)] : []
+          data: this.showAiForecast ? [...(new Array(12).fill(null)), ...DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["ai_forecast"]).slice(12, 15)] : []
         },
         {
           name: 'final forecast(expected)',
@@ -128,7 +131,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: this.showFinalForecast ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["final_forecast"]).slice(12, 15)] : []
+          data: this.showFinalForecast ? [...(new Array(12).fill(null)), ...DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["final_forecast"]).slice(12, 15)] : []
         },
         {
           name: 'prev quarter final',
@@ -137,7 +140,7 @@ export class DetailsComponent implements AfterViewInit, OnInit {
             type: 'dashed'
           },
           //@ts-ignore
-          data: this.showActualConsumption ? [...(new Array(12).fill(null)), ...DetailsData.default[this.tabIndex].data[this.dataIndex].data.map(d => d["actual_consumption"]).slice(12, 15)] : []
+          data: this.showActualConsumption ? [...(new Array(12).fill(null)), ...DetailsData.default.filter(e => e.title == this.type)[0].data.filter(e => e.id == this.routeID)[0].data.map(d => d["actual_consumption"]).slice(12, 15)] : []
         }
         ]
       };
@@ -148,9 +151,5 @@ export class DetailsComponent implements AfterViewInit, OnInit {
     }
 
 
-  }
-
-  ngAfterViewInit() {
-    this.makeChart();
   }
 }

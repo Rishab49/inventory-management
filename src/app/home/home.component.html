@@ -11,7 +11,7 @@
       </div>
    </span>
    <div class="flex gap-4 w-full overflow-auto">
-      <div *ngFor="let city of data.default" class="widget  p-4 border aspect-square h-[250px] w-[250px] rounded-md">
+      <a [routerLink]="['/details','BACKLOG',city.id]" *ngFor="let city of data.default[0].data" class="widget  p-4 border aspect-square h-[250px] w-[250px] rounded-md">
          <h2 class="font-bold">{{city.name}}</h2>
          <div class="flex items-start flex-col">
             <h3 class="text-sm">Forecast</h3>
@@ -29,7 +29,7 @@
                <mat-icon>arrow_downward</mat-icon>
             </span>
          </div>
-      </div>
+      </a>
    </div>
 </div>
 </main>
